@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg--color: #CB8A4E;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #112e42;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    background: var(--bg--color);
+    color: var(--text-color);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; /* ทำให้ navbar ติดอยู่ที่ด้านบน */
+    top: 0; /* ติดอยู่ที่ด้านบน */
+    background-color: var(--main-color); /* สีพื้นหลัง */
+    color: #fff; /* สีข้อความ */
+    padding: 20px;
+    z-index: 1000; /* ให้แน่ใจว่ามีลำดับสูงสุด */
+}
+
+.navbar {
+    display: flex; /* ใช้ Flexbox สำหรับ Navbar */
+}
+
+.navbar a {
+    color: #fff; /* สีของลิงก์ */
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    padding: 0 15px; /* เพิ่ม padding */
+}
+
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+       color: var(--main-color);
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+body {
+    height: 100vh; /* เพื่อให้มีความสูงที่พอจะเลื่อน */
+    overflow-y: scroll; /* สร้าง scroll bar */
+}
+
+
+
+.home {
+    display: relative;
+    align-items: center;
+    padding: 0 9%;
+    height: 100%;
+    background-image: url('/pink.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.home-content{
+    max-width: 80rem;
+}
+
+.home-content a{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: black;
+    left: 50%;
+    top: 200px;
+}
+
+
+.home-content .text-animate{
+    position: relative;
+    width: 42.8rem;
+}
+
+.home-content .text-animate h3{
+   font-size: 3.2rem;
+   font-weight: 700;
+   color: transparent;
+   -webkit-text-stroke: .7px var(--text-color);
+}
+
+.home-content p{
+    font-size: 2.9rem;
+    margin: 2rem 0 4rem;
+}
+
+
+.navbar {
+    display: flex; /* Make the navbar container a flexbox */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Align buttons horizontally to the center */
+    justify-content: center; /* Vertically center buttons within the navbar */
+    position: absolute; /* Position the navbar absolutely */
+    top: 65%; /* Center vertically by setting top to 50% */
+    left: 50%; /* Center horizontally by setting left to 50% */
+    transform: translate(-50%, -50%); /* Adjust position for perfect centering */
+  }
+  
+.navbar a { /* Style for individual buttons */
+    margin: 10px 0; /* Add vertical spacing between buttons */
+    padding: 5px 10px; /* Add padding for better appearance */
+    border: 3px solid  #000; /* Add a border for visual separation */
+    border-radius: 10px; /* Add rounded corners */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set text color */
+  }
+

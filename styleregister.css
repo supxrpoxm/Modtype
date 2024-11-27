@@ -1,0 +1,62 @@
+.register {
+    position: fixed;
+    background-image: url(/register2.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-container {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+  }
+    
+  .register label {
+      display: flex;
+      margin-bottom: 15px;
+  }
+    
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="password"],
+  .register input[type="password"] {
+      top: 50%;
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 15px;
+    }
+    
+  .register button {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border: 2px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .navbar {
+        display: flex; /* Make the navbar container a flexbox */
+        flex-direction: column; /* Arrange elements vertically */
+        align-items: center; /* Align buttons horizontally to the center */
+        justify-content: center; /* Vertically center buttons within the navbar */
+        position: absolute; /* Position the navbar absolutely */
+        top: 105%; /* Center vertically by setting top to 50% */
+        right: 40%; /* Center horizontally by setting left to 50% */
+        transform: translate(-50%, -50%); /* Adjust position for perfect centering */
+      }
+
+    .navbar a { /* Style for individual buttons */
+        margin: 10px 0; /* Add vertical spacing between buttons */
+        padding: 5px 10px; /* Add padding for better appearance */
+        border: 3px solid  #000; /* Add a border for visual separation */
+        border-radius: 10px; /* Add rounded corners */
+        text-decoration: none; /* Remove underline from links */
+        color: #000; /* Set text color */
+      }
+    
