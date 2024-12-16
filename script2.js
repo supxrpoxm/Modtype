@@ -19,8 +19,6 @@ const texts = [
     "protocol IP TCP UDP HTTP HTTPS FTP DNS DHCP ARP ICMP NAT firewall router switch proxy load balancer subnet mask gateway port socket VPN SSL/TLS bandwidth latency packet traceroute",
     // ชุดคำศัพท์ที่เกี่ยวข้องกับ DevOps
     "CI/CD pipeline Docker Kubernetes Jenkins GitHub Actions Terraform Ansible Puppet Chef monitoring logging Prometheus Grafana deployment scaling load balancing automation container orchestration version control repository",
-    // ชุดคำศัพท์ที่เกี่ยวข้องกับ AI/ML
-    "machine learning deep neural network supervised reinforcement learning dataset training validation testing extraction hyperparameter optimization overfitting underfitting backpropagation convolution recurrent ",
     // ชุดคำศัพท์ที่เกี่ยวข้องกับการพัฒนาเกม
     "game engine Unity Unreal asset physics shader animation sprite 3D 2D collision detection rendering framerate level design character controller AI pathfinding particle system skybox lighting texture rigging",
     // ชุดคำศัพท์ที่เกี่ยวข้องกับ Cybersecurity
